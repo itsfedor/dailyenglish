@@ -9,6 +9,10 @@ Daily English tasks inside Minecraft. Each level has its own task pool
 medium, and hard difficulty. Players get their task list for the day, work
 through it, and earn rewards.
 
+<p align="center">
+  <img src="assets/preview.jpg" alt="DailyEnglish" width="80%" />
+</p>
+
 ## Why this plugin exists
 
 A student who logs in every day to do one small English task is learning.
