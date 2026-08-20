@@ -1,0 +1,15 @@
+name: DailyEnglish
+version: '1.0.0'
+main: com.nous.dailyenglish.DailyEnglish
+api-version: '1.21'
+depend: [Vault]
+softdepend: [LuckPerms]
+authors: [Nous]
+description: Daily English tasks in Minecraft
+commands:
+  tasks:
+    description: Show your daily English tasks
+    usage: /tasks
+  dailyenglish:
+    description: DailyEnglish quiz answers
+    usage: /dailyenglish answer <taskId> <index>

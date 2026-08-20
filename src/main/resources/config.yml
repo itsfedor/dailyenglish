@@ -1,0 +1,22 @@
+# Groq API (shared with Chat2Earn)
+groq:
+  api-key: "YOUR_GROQ_API_KEY"
+  model: "llama-3.1-8b-instant"
+  timeout-seconds: 10
+
+# Rewards per difficulty
+rewards:
+  easy: 5.0
+  medium: 10.0
+  hard: 15.0
+
+# Task refresh
+refresh:
+  interval-minutes: 120
+  slot-timeout-minutes: 240
+  slots: 3
+
+# LuckPerms track for English levels
+levels:
+  track: "english"
+  default: "a0"

@@ -1,0 +1,65 @@
+# D1 Level — Mastery (50 tasks)
+tasks:
+  # CRAFT — endgame items
+  - {id: d1_craft_01, type: CRAFT, difficulty: MEDIUM, instruction: "Craft an end crystal with ghast tear and glass", target: END_CRYSTAL}
+  - {id: d1_craft_02, type: CRAFT, difficulty: MEDIUM, instruction: "Craft a conduit with nautilus shells and a heart of the sea", target: CONDUIT}
+  - {id: d1_craft_03, type: CRAFT, difficulty: MEDIUM, instruction: "Craft an entire set of netherite armor", target: NETHERITE_CHESTPLATE}
+  - {id: d1_craft_04, type: CRAFT, difficulty: MEDIUM, instruction: "Craft a beacon with nether star and obsidian", target: BEACON}
+  - {id: d1_craft_05, type: CRAFT, difficulty: MEDIUM, instruction: "Craft a shulker box from a shulker shell", target: SHULKER_BOX}
+  - {id: d1_craft_06, type: CRAFT, difficulty: MEDIUM, instruction: "Craft a magenta dyed shulker box", target: MAGENTA_SHULKER_BOX}
+  - {id: d1_craft_07, type: CRAFT, difficulty: HARD, instruction: "Craft a lodestone using a netherite ingot", target: LODESTONE}
+  - {id: d1_craft_08, type: CRAFT, difficulty: HARD, instruction: "Craft a fully powered respawn anchor and activate it", target: RESPAWN_ANCHOR}
+  - {id: d1_craft_09, type: CRAFT, difficulty: HARD, instruction: "Craft a wind charge from breeze rods", target: WIND_CHARGE}
+  - {id: d1_craft_10, type: CRAFT, difficulty: HARD, instruction: "Craft a mace with breeze rod and heavy core", target: MACE}
+  - {id: d1_craft_11, type: CRAFT, difficulty: HARD, instruction: "Craft an ominous bottle to trigger ominous events", target: OMINOUS_BOTTLE}
+  - {id: d1_craft_12, type: CRAFT, difficulty: HARD, instruction: "Craft a trial key from a trial spawner", target: TRIAL_KEY}
+  - {id: d1_craft_13, type: CRAFT, difficulty: HARD, instruction: "Craft a calibrated sculk sensor with amethyst", target: CALIBRATED_SCULK_SENSOR}
+  - {id: d1_craft_14, type: CRAFT, difficulty: HARD, instruction: "Craft a recovery compass from echo shards", target: RECOVERY_COMPASS}
+  - {id: d1_craft_15, type: CRAFT, difficulty: HARD, instruction: "Craft a snout banner pattern from a bastion", target: SNOUT_BANNER_PATTERN}
+
+  # PLANT  
+  - {id: d1_plant_01, type: PLANT, difficulty: MEDIUM, instruction: "Plant a sculk catalyst and let it spread sculk blocks", target: SCULK_CATALYST}
+  - {id: d1_plant_02, type: PLANT, difficulty: MEDIUM, instruction: "Plant a pink petal flower in a cherry grove", target: PINK_PETALS}
+  - {id: d1_plant_03, type: PLANT, difficulty: MEDIUM, instruction: "Plant a pitcher pod from an ancient sniffer", target: PITCHER_POD}
+  - {id: d1_plant_04, type: PLANT, difficulty: HARD, instruction: "Plant a torchflower from sniffer archaeology", target: TORCHFLOWER}
+  - {id: d1_plant_05, type: PLANT, difficulty: HARD, instruction: "Plant and grow a mangrove tree in a swamp biome", target: MANGROVE_PROPAGULE}
+  - {id: d1_plant_06, type: PLANT, difficulty: HARD, instruction: "Plant a chorus flower in the outer End islands", target: CHORUS_FLOWER}
+  - {id: d1_plant_07, type: PLANT, difficulty: HARD, instruction: "Plant a wither rose where a wither killed a mob", target: WITHER_ROSE}
+  - {id: d1_plant_08, type: PLANT, difficulty: HARD, instruction: "Plant a sculk shrieker in the deep dark biome", target: SCULK_SHRIEKER}
+  - {id: d1_plant_09, type: PLANT, difficulty: HARD, instruction: "Plant small dripleaf on clay underwater in a lush cave", target: SMALL_DRIPLEAF}
+  - {id: d1_plant_10, type: PLANT, difficulty: HARD, instruction: "Plant glow lichen in a dark cave and let it spread", target: GLOW_LICHEN}
+
+  # FISH
+  - {id: d1_fish_01, type: FISH, difficulty: MEDIUM, instruction: "Catch an enchanted book with at least two enchantments", target: ENCHANTED_BOOK}
+  - {id: d1_fish_02, type: FISH, difficulty: HARD, instruction: "Catch a nautilus shell while fishing in an ocean", target: NAUTILUS_SHELL}
+  - {id: d1_fish_03, type: FISH, difficulty: HARD, instruction: "Catch a saddled strider... I mean, a saddle", target: SADDLE}
+  - {id: d1_fish_04, type: FISH, difficulty: HARD, instruction: "Catch a lily pad while fishing in a swamp biome", target: LILY_PAD}
+  - {id: d1_fish_05, type: FISH, difficulty: HARD, instruction: "Catch a bow with Power IV or higher", target: BOW}
+
+  # RIDE
+  - {id: d1_ride_01, type: RIDE, difficulty: MEDIUM, instruction: "Ride a horse with maximum speed and jump stats", target: HORSE}
+  - {id: d1_ride_02, type: RIDE, difficulty: MEDIUM, instruction: "Ride a camel with two players seated", target: CAMEL}
+  - {id: d1_ride_03, type: RIDE, difficulty: HARD, instruction: "Ride a strider on lava for 200 blocks", target: STRIDER}
+  - {id: d1_ride_04, type: RIDE, difficulty: HARD, instruction: "Ride a minecart through a fully automatic railway system", target: MINECART}
+  - {id: d1_ride_05, type: RIDE, difficulty: HARD, instruction: "Ride a skeleton horse you tamed during a thunderstorm", target: SKELETON_HORSE}
+
+  # TAME
+  - {id: d1_tame_01, type: TAME, difficulty: MEDIUM, instruction: "Tame an allay and give it an item to find duplicates", target: ALLAY}
+  - {id: d1_tame_02, type: TAME, difficulty: MEDIUM, instruction: "Tame a trader llama with maximum carpet decoration", target: TRADER_LLAMA}
+  - {id: d1_tame_03, type: TAME, difficulty: HARD, instruction: "Tame a fox, breed two, and raise the baby in a den", target: FOX}
+  - {id: d1_tame_04, type: TAME, difficulty: HARD, instruction: "Tame a wolf and dye its armor to match your skin", target: WOLF}
+  - {id: d1_tame_05, type: TAME, difficulty: HARD, instruction: "Tame a parrot and make it imitate five different mobs", target: PARROT}
+
+  # DESCRIBE
+  - {id: d1_desc_01, type: DESCRIBE, difficulty: MEDIUM, instruction: "Explain in detail how a raid farm works", topic: raid farm, min_words: 25}
+  - {id: d1_desc_02, type: DESCRIBE, difficulty: MEDIUM, instruction: "Describe your ultimate Minecraft base design", topic: ultimate base, min_words: 25}
+  - {id: d1_desc_03, type: DESCRIBE, difficulty: HARD, instruction: "Write a comprehensive guide to speedrunning Minecraft", topic: speedrunning, min_words: 30}
+  - {id: d1_desc_04, type: DESCRIBE, difficulty: HARD, instruction: "Explain how to create a fully automated storage system", topic: automated storage, min_words: 30}
+  - {id: d1_desc_05, type: DESCRIBE, difficulty: HARD, instruction: "Describe what Minecraft has taught you about problem-solving", topic: Minecraft lessons, min_words: 35}
+
+  # QUIZ
+  - {id: d1_quiz_01, type: QUIZ, difficulty: MEDIUM, instruction: "What do you need to duplicate an allay?", options: ["Amethyst shard while dancing", "Diamond", "Jukebox only"], correct: 0}
+  - {id: d1_quiz_02, type: QUIZ, difficulty: MEDIUM, instruction: "What is the only way to obtain a heavy core for a mace?", options: ["Ominous vault in trial chambers", "Warden drop", "Nether fortress"], correct: 0}
+  - {id: d1_quiz_03, type: QUIZ, difficulty: HARD, instruction: "Which structure contains ominous vaults?", options: ["Trial chambers", "Ancient cities", "End cities"], correct: 0}
+  - {id: d1_quiz_04, type: QUIZ, difficulty: HARD, instruction: "How do you activate an ominous trial spawner?", options: ["Drink an ominous bottle nearby", "Right-click with trial key", "Redstone signal"], correct: 0}
+  - {id: d1_quiz_05, type: QUIZ, difficulty: HARD, instruction: "What does a breeze drop when killed?", options: ["Breeze rod", "Wind charge", "Both"], correct: 0}

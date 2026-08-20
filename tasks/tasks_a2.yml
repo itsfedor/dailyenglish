@@ -1,0 +1,65 @@
+# A2 Level — Pre-intermediate (50 tasks)
+tasks:
+  # CRAFT — more complex items
+  - {id: a2_craft_01, type: CRAFT, difficulty: EASY, instruction: "Craft a map", target: MAP}
+  - {id: a2_craft_02, type: CRAFT, difficulty: EASY, instruction: "Craft a painting", target: PAINTING}
+  - {id: a2_craft_03, type: CRAFT, difficulty: EASY, instruction: "Craft a bookshelf", target: BOOKSHELF}
+  - {id: a2_craft_04, type: CRAFT, difficulty: EASY, instruction: "Craft an iron pickaxe", target: IRON_PICKAXE}
+  - {id: a2_craft_05, type: CRAFT, difficulty: EASY, instruction: "Craft an iron chestplate", target: IRON_CHESTPLATE}
+  - {id: a2_craft_06, type: CRAFT, difficulty: EASY, instruction: "Craft a golden apple", target: GOLDEN_APPLE}
+  - {id: a2_craft_07, type: CRAFT, difficulty: MEDIUM, instruction: "Craft an enchanting table", target: ENCHANTING_TABLE}
+  - {id: a2_craft_08, type: CRAFT, difficulty: MEDIUM, instruction: "Craft a diamond sword", target: DIAMOND_SWORD}
+  - {id: a2_craft_09, type: CRAFT, difficulty: MEDIUM, instruction: "Craft a clock", target: CLOCK}
+  - {id: a2_craft_10, type: CRAFT, difficulty: MEDIUM, instruction: "Craft TNT", target: TNT}
+  - {id: a2_craft_11, type: CRAFT, difficulty: MEDIUM, instruction: "Craft an observer block", target: OBSERVER}
+  - {id: a2_craft_12, type: CRAFT, difficulty: HARD, instruction: "Craft a diamond chestplate", target: DIAMOND_CHESTPLATE}
+  - {id: a2_craft_13, type: CRAFT, difficulty: HARD, instruction: "Craft a beacon", target: BEACON}
+  - {id: a2_craft_14, type: CRAFT, difficulty: HARD, instruction: "Craft an anvil", target: ANVIL}
+  - {id: a2_craft_15, type: CRAFT, difficulty: HARD, instruction: "Craft a piston", target: PISTON}
+
+  # PLANT
+  - {id: a2_plant_01, type: PLANT, difficulty: EASY, instruction: "Plant sweet berry bushes", target: SWEET_BERRY_BUSH}
+  - {id: a2_plant_02, type: PLANT, difficulty: EASY, instruction: "Plant an azalea bush", target: AZALEA}
+  - {id: a2_plant_03, type: PLANT, difficulty: EASY, instruction: "Plant a flowering azalea", target: FLOWERING_AZALEA}
+  - {id: a2_plant_04, type: PLANT, difficulty: MEDIUM, instruction: "Plant kelp underwater", target: KELP}
+  - {id: a2_plant_05, type: PLANT, difficulty: MEDIUM, instruction: "Plant glow berries on a cave ceiling", target: GLOW_BERRIES}
+  - {id: a2_plant_06, type: PLANT, difficulty: MEDIUM, instruction: "Plant cocoa beans on a jungle log", target: COCOA}
+  - {id: a2_plant_07, type: PLANT, difficulty: MEDIUM, instruction: "Plant a crimson fungus in the Nether", target: CRIMSON_FUNGUS}
+  - {id: a2_plant_08, type: PLANT, difficulty: HARD, instruction: "Plant nether wart on soul sand", target: NETHER_WART}
+  - {id: a2_plant_09, type: PLANT, difficulty: HARD, instruction: "Plant a warped fungus in the Nether", target: WARPED_FUNGUS}
+  - {id: a2_plant_10, type: PLANT, difficulty: HARD, instruction: "Plant a mangrove propagule", target: MANGROVE_PROPAGULE}
+
+  # FISH
+  - {id: a2_fish_01, type: FISH, difficulty: EASY, instruction: "Catch any fish", target: COD}
+  - {id: a2_fish_02, type: FISH, difficulty: MEDIUM, instruction: "Catch a tropical fish", target: TROPICAL_FISH}
+  - {id: a2_fish_03, type: FISH, difficulty: MEDIUM, instruction: "Catch an enchanted item while fishing", target: ENCHANTED_BOOK}
+  - {id: a2_fish_04, type: FISH, difficulty: HARD, instruction: "Catch a pufferfish", target: PUFFERFISH}
+  - {id: a2_fish_05, type: FISH, difficulty: HARD, instruction: "Catch a salmon in a river biome", target: SALMON}
+
+  # RIDE
+  - {id: a2_ride_01, type: RIDE, difficulty: EASY, instruction: "Ride a boat across a river", target: OAK_BOAT}
+  - {id: a2_ride_02, type: RIDE, difficulty: MEDIUM, instruction: "Ride a saddled horse", target: HORSE}
+  - {id: a2_ride_03, type: RIDE, difficulty: MEDIUM, instruction: "Ride a minecart down a hill", target: MINECART}
+  - {id: a2_ride_04, type: RIDE, difficulty: HARD, instruction: "Ride a strider on lava", target: STRIDER}
+  - {id: a2_ride_05, type: RIDE, difficulty: HARD, instruction: "Ride a skeleton horse", target: SKELETON_HORSE}
+
+  # TAME
+  - {id: a2_tame_01, type: TAME, difficulty: EASY, instruction: "Tame a cat with raw fish", target: CAT}
+  - {id: a2_tame_02, type: TAME, difficulty: EASY, instruction: "Tame a wolf and make it sit", target: WOLF}
+  - {id: a2_tame_03, type: TAME, difficulty: MEDIUM, instruction: "Tame a horse and put a saddle on it", target: HORSE}
+  - {id: a2_tame_04, type: TAME, difficulty: HARD, instruction: "Tame a fox with sweet berries", target: FOX}
+  - {id: a2_tame_05, type: TAME, difficulty: HARD, instruction: "Tame a mule", target: MULE}
+
+  # DESCRIBE
+  - {id: a2_desc_01, type: DESCRIBE, difficulty: EASY, instruction: "Describe your favorite biome in Minecraft", topic: favorite biome, min_words: 12}
+  - {id: a2_desc_02, type: DESCRIBE, difficulty: EASY, instruction: "Describe what you did today in the game", topic: what I did today, min_words: 12}
+  - {id: a2_desc_03, type: DESCRIBE, difficulty: MEDIUM, instruction: "Describe how to survive the first night", topic: survive first night, min_words: 15}
+  - {id: a2_desc_04, type: DESCRIBE, difficulty: MEDIUM, instruction: "Describe a plan for a big project", topic: big project, min_words: 15}
+  - {id: a2_desc_05, type: DESCRIBE, difficulty: HARD, instruction: "Describe a scary moment you had in Minecraft", topic: scary moment, min_words: 15}
+
+  # QUIZ
+  - {id: a2_quiz_01, type: QUIZ, difficulty: EASY, instruction: "Which ore is mined with an iron pickaxe?", options: ["Diamond", "Coal", "Stone"], correct: 0}
+  - {id: a2_quiz_02, type: QUIZ, difficulty: EASY, instruction: "What is obsidian made from?", options: ["Water + lava", "Stone + water", "Sand + lava"], correct: 0}
+  - {id: a2_quiz_03, type: QUIZ, difficulty: MEDIUM, instruction: "How many eyes of ender for the End portal?", options: ["12", "8", "16"], correct: 0}
+  - {id: a2_quiz_04, type: QUIZ, difficulty: MEDIUM, instruction: "Which mob explodes near players?", options: ["Creeper", "Zombie", "Skeleton"], correct: 0}
+  - {id: a2_quiz_05, type: QUIZ, difficulty: HARD, instruction: "What is required to activate a beacon?", options: ["Mineral blocks pyramid", "Redstone", "Glowstone"], correct: 0}

@@ -1,0 +1,10 @@
+{
+  "slug": "dailyenglish",
+  "title": "DailyEnglish",
+  "summary": "Daily English tasks in Minecraft: craft, plant, and collect your way through level-tuned task lists.",
+  "categories": ["adventure", "utility", "economy"],
+  "license_id": "MIT",
+  "client_side": "unsupported",
+  "server_side": "required",
+  "body_file": "scripts/modrinth/bodies/dailyenglish.md"
+}
