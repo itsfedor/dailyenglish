@@ -24,27 +24,39 @@ effect of playing, not homework.
 - Level-tuned task pools: A0 tasks teach basics, B1 tasks demand real recipes (conduits, respawn anchors, lodestone compasses)
 - Task types: CRAFT, PLANT, COLLECT and more, each with a written English instruction
 - Book GUI shows today's tasks in-game
+- `/dailyenglish describe <taskId>` — write a short English description of your task and an AI check (Groq) accepts it or asks for more detail
 - Rewards paid through Vault
 
 ## Requirements
 
 - Paper or Spigot 1.21+
-- Vault with an economy plugin
-- Optional: LuckPerms for per-level task pools
+- [Vault](https://www.spigotmc.org/resources/vault.34315/) + an economy plugin (e.g. [EssentialsX](https://essentialsx.net/downloads.html))
+- A Groq API key from [console.groq.com](https://console.groq.com) (free tier works) — required for the `describe` AI check
+- Optional: [LuckPerms](https://luckperms.net/) for per-level task pools
 
 ## Commands
 
 ```
 /tasks                        show your daily tasks
 /dailyenglish answer <taskId> <index>   submit an answer
+/dailyenglish describe <taskId>         describe the task in English (AI-checked)
 ```
 
 ## Install
 
-1. Put `DailyEnglish.jar` in `plugins/`.
-2. Copy `config.example.yml` to `config.yml`.
-3. Copy the `tasks/` folder next to `config.yml`.
-4. Restart the server.
+1. Download `DailyEnglish.jar` from [Releases](https://github.com/itsfedor/dailyenglish/releases/latest) (or use the copy in the repo root).
+2. Put the jar in `plugins/`.
+3. Copy `config.example.yml` to `config.yml` and set your Groq key (`groq.api-key`).
+4. Copy the `tasks/` folder next to `config.yml`.
+5. Restart the server.
+
+## Build from source
+
+```bash
+./gradlew build
+```
+
+Requires JDK 21. Produces `build/libs/DailyEnglish.jar`.
 
 ## Task files
 
@@ -57,6 +69,12 @@ Task pools live in `plugins/DailyEnglish/tasks/`, one file per level
 ```
 
 The full task sets for every level ship in the `tasks/` folder of this repo.
+
+## Troubleshooting
+
+- **`/tasks` shows nothing** — make sure the `tasks/` folder was copied next to `config.yml`, with one YAML file per level (`tasks_a0.yml` …).
+- **`describe` always fails or auto-accepts instantly** — the AI check needs a valid `groq.api-key` in `config.yml`; on an API error the plugin logs a warning and auto-accepts.
+- **Rewards not paid** — a Vault-registered economy plugin must be installed; Vault by itself pays nothing.
 
 ## License
 
