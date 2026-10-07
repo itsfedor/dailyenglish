@@ -16,10 +16,6 @@ Daily English tasks inside Minecraft. Each level has its own task pool
 medium, and hard difficulty. Players get their task list for the day, work
 through it, and earn rewards.
 
-<p align="center">
-  <img src="assets/preview.jpg" alt="DailyEnglish" width="80%" />
-</p>
-
 Part of a four-plugin ESL family: [Chat2Earn](https://github.com/itsfedor/chat2earn) · [EnglishProgression](https://github.com/itsfedor/englishprogression) · [VocabQuiz](https://github.com/itsfedor/vocabquiz) · [DailyEnglish](https://github.com/itsfedor/dailyenglish)
 
 ## Why this plugin exists
