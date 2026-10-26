@@ -40,4 +40,4 @@ The full task files are in the [repo](https://github.com/itsfedor/dailyenglish/t
 
 ## License
 
-MIT. Source code is in the [repository](https://github.com/itsfedor/dailyenglish).
+AGPL-3.0. Source code is in the [repository](https://github.com/itsfedor/dailyenglish).
