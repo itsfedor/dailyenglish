@@ -7,7 +7,7 @@
 
 # DailyEnglish
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
 [![PaperMC](https://img.shields.io/badge/PaperMC-1.21-4ade80)](https://papermc.io/downloads/paper)
 [![Vault](https://img.shields.io/badge/Vault-required-8250df)](https://www.spigotmc.org/resources/vault.34315/)
 
@@ -83,4 +83,4 @@ The full task sets for every level ship in the `tasks/` folder of this repo.
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+AGPL-3.0. See [LICENSE](LICENSE). If AGPL does not fit your use case, a commercial license is available — [COMMERCIAL.md](COMMERCIAL.md).
